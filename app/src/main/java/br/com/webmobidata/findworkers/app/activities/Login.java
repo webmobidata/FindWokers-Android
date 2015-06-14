@@ -18,7 +18,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import br.com.webmobidata.findworkers.R;
-import br.com.webmobidata.findworkers.app.handleViews.HideShowProgress;
+import br.com.webmobidata.findworkers.app.handleViews.HideShowProgressBar;
 import br.com.webmobidata.findworkers.app.tasks.AutoCompleteEmailTask;
 import br.com.webmobidata.findworkers.delegate.AutoCompleteEmailTaskDelegate;
 
@@ -85,7 +85,7 @@ public class Login extends AppCompatActivity  implements AutoCompleteEmailTaskDe
         if (cancel) {
             focusView.requestFocus();
         } else {
-            HideShowProgress.showProgress(true, mProgressView, mLoginFormView, this);
+            HideShowProgressBar.showProgress(true, mProgressView, mLoginFormView, this);
         }
 
     }

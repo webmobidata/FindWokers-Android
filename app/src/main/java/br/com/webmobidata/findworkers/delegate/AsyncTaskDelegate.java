@@ -6,7 +6,6 @@ import br.com.webmobidata.findworkers.app.FindWorkersApp;
  * Created by MarceloToyoda on 09/06/2015.
  */
 public interface AsyncTaskDelegate {
-
-    public void treatmentOnPostRequest();
-    public FindWorkersApp getApplication();
+    void treatmentOnPostRequest();
+    FindWorkersApp getApplication();
 }

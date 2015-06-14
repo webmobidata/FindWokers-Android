@@ -1,0 +1,12 @@
+<resources>
+    <string name="title_activity_login">Login</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_up">Cadastrar</string>
+
+    <string name="error_invalid_email">E-mail é inválido</string>
+    <string name="error_invalid_password">Senha Curta</string>
+    <string name="error_field_required">Campo Obrigatório</string>
+</resources>

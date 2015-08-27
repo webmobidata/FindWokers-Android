@@ -1,0 +1,17 @@
+<resources>
+    <string name="title_activity_register">Cadastro</string>
+    <string name="juridical_person">Pessoa Jurídica</string>
+    <string name="field_name">Nome</string>
+    <string name="field_password">Senha</string>
+    <string name="field_confirm_password">Confirmar Senha</string>
+    <string name="field_email">Email</string>
+    <string name="field_phone">Telefone</string>
+    <string name="worker">Trabalhador</string>
+    <string name="worker_autonomous">Autônomo</string>
+    <string name="enterprise">Empresa</string>
+    <string name="field_cpf">CPF</string>
+    <string name="action_settings">Menu</string>
+    <string name="field_name_enterprise">Nome Empresa</string>
+    <string name="field_cnpj">CNPJ</string>
+    <string name="field_address">Endereço Empresa</string>
+</resources>

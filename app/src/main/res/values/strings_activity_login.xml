@@ -9,4 +9,8 @@
     <string name="error_invalid_email">E-mail é inválido</string>
     <string name="error_invalid_password">Senha Curta</string>
     <string name="error_field_required">Campo Obrigatório</string>
+    <string name="button_facebook_login">Entrar com o Facebook</string>
+    <string name="button_twitter_login">Entrar com o Twitter</string>
+
+    <string name="footer">WebMobiData Solution - 2015</string>
 </resources>

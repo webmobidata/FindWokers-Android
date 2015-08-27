@@ -17,9 +17,11 @@
         android:background="@color/button_color">
 
         <ImageView
+            android:id="@+id/logoLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher"/>
+            android:src="@drawable/ic_launcher"
+            tools:ignore="ContentDescription"/>
 
         <TextView
             android:id="@+id/text_logo"
@@ -83,7 +85,7 @@
                         tools:ignore="ContentDescription"
                         android:layout_weight="0.1"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/ic_account_grey600_18dp" />
+                        android:src="@drawable/ic_account_circle_grey600_48dp" />
 
                 </LinearLayout>
 
@@ -112,7 +114,7 @@
                         tools:ignore="ContentDescription"
                         android:layout_weight="0.1"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/ic_lock_grey600_18dp" />
+                        android:src="@drawable/ic_lock_grey600_48dp" />
 
                 </LinearLayout>
 
@@ -153,6 +155,22 @@
 
                 </LinearLayout>
 
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/login_facebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:padding="7dp"
+                    android:text="@string/button_facebook_login"/>
+
+                <com.twitter.sdk.android.core.identity.TwitterLoginButton
+                    android:id="@+id/login_twitter"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/button_twitter_login"/>
+
             </LinearLayout>
 
         </ScrollView>
@@ -162,7 +180,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WebMobiData Solutions - 2015"
+        android:text="@string/footer"
         android:layout_gravity="center"
         android:textSize="12sp"
         android:textStyle="bold"/>

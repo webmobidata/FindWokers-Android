@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/formRegisterEnterprise"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+
+    <EditText
+        android:id="@+id/nameEnterprise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="text"
+        android:hint="@string/field_name_enterprise"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:id="@+id/passwordEnterprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/field_password"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:id="@+id/confirmPasswordEnterprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/field_confirm_password"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/emailEnterprise"
+        android:inputType="textEmailAddress"
+        android:hint="@string/field_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:id="@+id/phoneEnterprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/field_phone"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+
+    <EditText
+        android:id="@+id/cnpjEnterprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/field_cnpj"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+</LinearLayout>

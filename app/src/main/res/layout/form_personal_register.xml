@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/formRegisterPerson"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/namePerson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="text"
+        android:hint="@string/field_name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:id="@+id/passwordPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/field_password"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:id="@+id/confirmPasswordPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/field_confirm_password"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/emailPerson"
+        android:inputType="textEmailAddress"
+        android:hint="@string/field_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:id="@+id/phonePerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/field_phone"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <LinearLayout
+        android:id="@+id/optionRegister"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <CheckBox
+            android:id="@+id/isWorker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/worker" />
+
+        <LinearLayout
+            android:id="@+id/optionProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/margin_top_logo"
+            android:visibility="gone">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/workerAutonomousRadioButton"
+                    android:text="@string/worker_autonomous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/enterpriseRadioButton"
+                    android:text="@string/enterprise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/cpfPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/field_cpf"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/dataEnterprisePerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/nameEnterprisePerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/field_name_enterprise"
+            android:inputType="text"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <EditText
+            android:id="@+id/cnpjPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/field_cnpj"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <EditText
+            android:id="@+id/addressEnterprisePerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/field_address"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    </LinearLayout>
+
+</LinearLayout>
